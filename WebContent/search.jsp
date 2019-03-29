@@ -7,7 +7,7 @@
 <title>Search - Java Test Web Application</title>
 </head>
 <body>
-	<h5><a href="index.jsp">Home</a></h5>
+	<h5><a href="index">Home</a></h5>
 	<h1>Search function</h1>
 	<p>Results: ${ search }</p>
 </body>

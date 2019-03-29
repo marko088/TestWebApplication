@@ -11,7 +11,7 @@
 	<h1>Login page</h1>
 	<fieldset>
 	<legend><strong>Insert your credentials:</strong></legend>
-		<form action="Login" method="POST">
+		<form action="login" method="POST">
 			<label for="username">Username</label>
 			<input type="text" name="username" id="username_input">
 			<label for="password">Password</label>

@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class Login
  * 
  */
-@WebServlet(name = "Login Servlet", description = "Login form page, with username and password parameters", urlPatterns = "/Login")
+@WebServlet(name = "Login", description = "Login form page, with username and password parameters", urlPatterns = "/login")
 public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        

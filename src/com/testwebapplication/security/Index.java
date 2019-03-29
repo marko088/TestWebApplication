@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Index
  */
-@WebServlet(name ="Index Servlet", description = "Home page containing the search form, mapped to \"Search\" Servlet", urlPatterns = "/Index")
+@WebServlet(name = "Index", description = "Home page containing the search form, mapped to \"Search\" Servlet", urlPatterns = {"/index", "/"})
 public class Index extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
